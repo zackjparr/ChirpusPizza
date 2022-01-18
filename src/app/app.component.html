@@ -1,0 +1,12 @@
+<div>
+  <h1>Welcome to CHIRPUS PIZZA!</h1>
+  <ul>
+    <li *ngFor="let each of item" style="display: block;padding:20px;border:1px solid black">
+      <div>
+        {{each.name}}<br>
+        {{each.category}}<br>
+        {{each.price}}<br>
+      </div>
+    </li>
+  </ul>
+</div>
